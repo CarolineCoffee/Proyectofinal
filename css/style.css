@@ -1,0 +1,1007 @@
+@charset "UTF-8";
+body.fondo {
+  background-image: url("../imagenes/fondodecafe.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: opacity(0.9);
+}
+
+/*Este es mi titulo principal en el index*/
+.textcenter {
+  font-size: 30px;
+  text-align: center;
+}
+
+/*Este es un carrusel de imagenes*/
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: contain;
+  width: auto;
+  margin: 0 auto;
+}
+
+section p .anuncio {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/*Este es el titulo de la pag de cursos*/
+.cursosdebarista {
+  text-align: center;
+}
+
+/*Esto es un contendeor grid*/
+.grid1 {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding: 1em;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin: 20px;
+}
+
+/*Esto es de un titulo*/
+.tituloprincipal {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*Parrafo del titulo principal*/
+.p-descripcion {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+
+/*imagen de ese parrafo*/
+.flatwhite {
+  margin-left: 15cm;
+}
+
+body.fondo {
+  background-image: url("ruta/de/tu/imagen.jpg");
+  background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Hace que la imagen se quede fija al hacer scroll */
+}
+
+.rodrigo {
+  margin-left: 4cm;
+  margin-top: 20px;
+}
+
+/*Esto es una imagen*/
+.tutordecafe {
+  width: 400px;
+  margin-left: 600px;
+}
+
+.tituloh2 {
+  font-size: 50px;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+/*Este es el logo de whatsapp*/
+.wpp {
+  position: fixed;
+  right: 35px;
+  bottom: 10px;
+  width: 60px;
+}
+
+/*Este es mi footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: #b0a498;
+  position: fixed;
+  bottom: 0;
+  left: 2px;
+  text-align: center;
+}
+
+.wpp {
+  width: 100px;
+  transform: translateY(100px);
+  animation-name: rotarelemento;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+}
+
+/*Este es el logo de whatsapp*/
+.wpp {
+  position: fixed;
+  right: 35px;
+  bottom: 10px;
+  width: 60px;
+}
+
+/*Esta es la animacion de mi logo*/
+@keyframes rotarelemento {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+/*Esto es un medio de inscripcion*/
+.inscripciones {
+  text-align: center;
+  background-color: #eeebe8;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  border-radius: 2px;
+  padding: 15px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+/*Media Q para escritorio*/
+@media (min-width: 1025px) {
+  .textcenter {
+    font-size: 32px;
+    margin-top: 60px;
+  }
+  .tituloh2 {
+    font-size: 48px;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+  .textodescriptivo {
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+  }
+  .contenedor {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: nowrap;
+  }
+  .tutordecafe {
+    width: 400px;
+    height: 450px;
+    margin-left: 50px;
+  }
+  .grid1 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    font-size: 28px;
+  }
+  .espresso {
+    height: auto;
+    width: 300px;
+    margin-top: 5%;
+  }
+  .inscripciones {
+    margin-left: 50px;
+    padding: 15px;
+  }
+  .wpp {
+    width: 60px;
+    right: 35px;
+    bottom: 100px;
+  }
+  .flatwhite,
+  .rosetta {
+    margin-left: 5cm;
+    margin-top: 20px;
+  }
+  .p-descripcion,
+  .parrafo1,
+  .parrafo2,
+  .parrafonumero1,
+  .parrafonumero2 {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+}
+/*Media query para pantallas móviles*/
+@media (max-width: 400px) {
+  .textcenter {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  .tituloh2 {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .textodescriptivo {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .contenedor {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .tutordecafe {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .grid1 {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    font-size: 18px;
+  }
+  .espresso {
+    height: auto;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .inscripciones {
+    margin-left: 0;
+    padding: 10px;
+  }
+  .wpp {
+    width: 50px;
+    right: 15px;
+    bottom: 50px;
+  }
+  .flatwhite,
+  .rosetta {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .p-descripcion,
+  .parrafo1,
+  .parrafo2,
+  .parrafonumero1,
+  .parrafonumero2 {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+}
+/*Media Q para tabletas*/
+@media (min-width: 600px) and (max-width: 1024px) {
+  .textcenter {
+    font-size: 26px;
+    margin-top: 50px;
+  }
+  .tituloh2 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .textodescriptivo {
+    font-size: 28px;
+    margin-left: 50px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  .contenedor {
+    margin-top: 40px;
+    margin-left: 2cm;
+    margin-right: 20px;
+  }
+  .tutordecafe {
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+  }
+  .grid1 {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    font-size: 24px;
+  }
+  .espresso {
+    height: auto;
+    width: 200px;
+    margin-top: 5%;
+  }
+  .inscripciones {
+    margin-left: 20px;
+    padding: 12px;
+  }
+  .wpp {
+    width: 50px;
+    right: 25px;
+    bottom: 70px;
+  }
+  .flatwhite,
+  .rosetta {
+    margin-left: 2cm;
+    margin-top: 20px;
+  }
+  .p-descripcion,
+  .parrafo1,
+  .parrafo2,
+  .parrafonumero1,
+  .parrafonumero2 {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+body.fondo {
+  background-image: url("../imagenes/fondodecafe.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: opacity(0.9);
+  padding-bottom: 40px;
+}
+
+/*Este es mi titulo principal en el index*/
+.textcenter {
+  font-size: 30px;
+  text-align: center;
+}
+
+/*Este es un carrusel de imagenes*/
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: contain;
+  width: auto;
+  margin: 0 auto;
+}
+
+section p .anuncio {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/*Este es el titulo de la pag de cursos*/
+.cursosdebarista {
+  text-align: center;
+}
+
+/*Esto es un contendeor grid*/
+.grid1 {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding: 1em;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin: 20px;
+}
+
+/*Esto es de un titulo*/
+.tituloprincipal {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*imagen de ese parrafo*/
+.flatwhite {
+  margin-left: 15cm;
+}
+
+body.fondo {
+  background-image: url("ruta/de/tu/imagen.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.rodrigo {
+  margin-left: 4cm;
+  margin-top: 20px;
+}
+
+/*Esto es una imagen*/
+.tutordecafe {
+  max-height: 500px;
+  object-fit: contain;
+  width: auto;
+  margin: 0 auto;
+}
+
+.cafelatteart {
+  max-height: 280px;
+  object-fit: contain;
+  width: auto;
+  margin-left: 13cm;
+}
+
+.tituloh2 {
+  font-size: 50px;
+  margin-top: 70px;
+  margin-left: 20px;
+  color: white;
+}
+
+/*Este es mi footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: #b0a498;
+  position: fixed;
+  bottom: 0;
+  left: 2px;
+  text-align: center;
+}
+
+.wpp {
+  width: 100px;
+  transform: translateY(100px);
+  animation-name: rotarelemento;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+}
+
+/*Este es el logo de whatsapp*/
+.wpp {
+  position: fixed;
+  right: 35px;
+  bottom: 10px;
+  width: 60px;
+}
+
+/*Esta es la animacion de mi logo*/
+@keyframes rotarelemento {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+/*Esto es un medio de inscripcion*/
+.inscripcion {
+  position: relative;
+  top: -50px;
+  margin-left: 30px;
+  background-color: wheat;
+  color: black;
+  text-decoration: none;
+  padding: 20px 40px;
+  width: calc(100% - 60px);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+body.fondo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../imagenes/fondodecafe.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.9; /* Ajusta la opacidad de la imagen */
+  z-index: -1; /* Asegúrate de que esté detrás del contenido */
+}
+
+/*Este es el titulo de mi página principal*/
+.textcenter {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 69px;
+}
+
+/*aca modifique el color*/
+h1 {
+  color: white;
+}
+
+.hola {
+  color: #f2f2f2;
+  margin-top: 50%;
+}
+
+/*Este es el carrusel de 3 imagenes*/
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: contain;
+  width: auto;
+  margin: 0 auto;
+}
+
+/*Este es el parrafo que esta debajo de mi seccion de carrusel*/
+.anuncio {
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/*Correcion del color del parrafo*/
+section p {
+  color: white;
+}
+
+/*Esto es una imagen*/
+.tutordecafe {
+  width: 350px;
+  height: 400px;
+  margin-left: 800px;
+}
+
+/*Este es el texto que contiene la imagen*/
+.tituloh2 {
+  font-size: 50px;
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.usuario {
+  position: relative;
+  color: wheat;
+  margin-left: 830px;
+  margin-top: 250px;
+}
+
+/*Texto contenedor de imagenes*/
+.textodescriptivo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 35px;
+  justify-content: center;
+  margin-left: 180px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+/*Esto es una imagen y un parrafo*/
+.contenedor {
+  margin-top: 80px;
+  margin-left: 15cm;
+  margin-right: 15px;
+  flex-wrap: wrap;
+}
+
+/*esto es el cambiop de color del parrafo*/
+p {
+  color: white;
+}
+
+/*Este es el logo de whatsapp*/
+.wpp {
+  position: fixed;
+  right: 35px;
+  bottom: 100px;
+  width: 60px;
+}
+
+/*Esta es la animacion de mi logo*/
+@keyframes rotarelemento {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+/*Este es el logo superior de mi proyecto*/
+#imagen {
+  margin-left: 40px;
+}
+
+/*Este es texto que esta sobre mi logo*/
+#palabra {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: -2px;
+  text-decoration-color: white;
+}
+
+label {
+  color: rgb(0, 0, 0);
+}
+
+/*esto es el titulo de mi pag de cursos*/
+.cursosdebarista {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+/*esto es un contenedor de grid*/
+.grid1 {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding: 1em;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin: 19px;
+  margin-bottom: 0;
+}
+
+/*Esta es una imagen forma parte del grid*/
+.espresso {
+  height: 350px;
+  margin-top: 15%;
+  width: 250px;
+}
+
+/*Textos descriptivos dentro del grid*/
+.parrafo1,
+.parrafo2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+  border: none;
+}
+
+/*Parrafo del titulo principal*/
+.p-descripcion {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+/*imagen de ese parrafo*/
+.flatwhite {
+  margin-left: 15cm;
+  margin-top: 1cm;
+}
+
+/*Este es el titulo 2*/
+.titulosecundario {
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  margin-top: -60px;
+  color: white;
+}
+
+/*Texto descriptivo de ese titulo 2*/
+.parrafonumero1,
+.parrafonumero2 {
+  text-align: center;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+/*imagen*/
+.rosetta {
+  margin-left: 3cm;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.tituloh2 {
+  font-size: 32px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.textodescriptivo {
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.contenedor {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.tutordecafe {
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+}
+
+.grid1 {
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  font-size: 18px;
+}
+
+.espresso {
+  height: auto;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.inscripciones {
+  margin-left: 0;
+  padding: 10px;
+}
+
+.wpp {
+  width: 50px;
+  right: 15px;
+  bottom: 50px;
+}
+
+.rosetta {
+  position: relative;
+  margin-left: 23cm;
+  margin-bottom: 80px;
+}
+
+h2 .rodrigoprofe {
+  margin-left: 4cm;
+  margin-top: 20px;
+}
+
+.titulo-de-tutores {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ubicacion {
+  font-size: 14px;
+  margin-bottom: -5px;
+}
+
+.logodecoffearabica,
+.wpp {
+  margin: 5px; /* Espaciado entre las imágenes */
+  height: 40px;
+  width: 50px;
+}
+
+.descripcion-del-prof {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
+.descripcion2 {
+  text-align: center;
+  color: white;
+  font-size: 19px;
+}
+
+.profesor {
+  position: relative;
+  color: white;
+  margin-left: 265px;
+}
+
+.analisis {
+  color: white;
+}
+
+.profesor2 {
+  color: white;
+  margin-left: 30cm;
+}
+
+.camilo {
+  margin-left: 1000px;
+  margin-bottom: 100px;
+}
+
+form {
+  position: relative;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  box-sizing: border-box;
+  margin-left: 800px;
+  margin-top: 5px;
+  margin-bottom: 200px;
+}
+
+/* Estilos para los inputs y el botón */
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: rgb(145, 122, 74);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #887938;
+}
+
+
+@media (max-width: 767px) { /* Móviles */
+  body.fondo {
+    background-size: cover;
+  }
+  .textcenter {
+    font-size: 20px;
+  }
+  .carousel-inner img {
+    max-height: 300px;
+  }
+  .grid1 {
+    font-size: 16px;
+    grid-template-columns: 1fr;
+  }
+  .tituloprincipal {
+    font-size: 25px;
+  }
+  .flatwhite {
+    margin-left: 0;
+  }
+  .wpp {
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+  }
+  .inscripcion {
+    margin-left: 10px;
+    padding: 15px;
+    width: calc(100% - 20px);
+  }
+  .tutordecafe, .cafelatteart {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .tituloh2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .titulosecundario {
+    font-size: 25px;
+  }
+  .parrafonumero1, .parrafonumero2 {
+    font-size: 14px;
+  }
+  .rosetta {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) { /* Tabletas */
+  body.fondo {
+    background-size: cover;
+  }
+  .textcenter {
+    font-size: 25px;
+  }
+  .carousel-inner img {
+    max-height: 400px;
+  }
+  .grid1 {
+    font-size: 22px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .tituloprincipal {
+    font-size: 30px;
+  }
+  .flatwhite {
+    margin-left: 10cm;
+  }
+  .wpp {
+    right: 30px;
+    bottom: 20px;
+    width: 55px;
+  }
+  .inscripcion {
+    margin-left: 20px;
+    padding: 18px;
+    width: calc(100% - 40px);
+  }
+  .tutordecafe, .cafelatteart {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .tituloh2 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  .titulosecundario {
+    font-size: 30px;
+  }
+  .parrafonumero1, .parrafonumero2 {
+    font-size: 15px;
+  }
+  .rosetta {
+    margin-left: 2cm;
+  }
+}
+@media (min-width: 1025px) { /* Desktop */
+  .grid1 {
+    font-size: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .tituloprincipal {
+    font-size: 35px;
+  }
+  .flatwhite {
+    margin-left: 15cm;
+  }
+  .wpp {
+    right: 35px;
+    bottom: 100px;
+    width: 60px;
+  }
+  .inscripcion {
+    margin-left: 30px;
+    padding: 20px;
+    width: calc(100% - 60px);
+  }
+  .tutordecafe, .cafelatteart {
+    width: 350px;
+    margin-left: 10px;
+  }
+  .tituloh2 {
+    font-size: 50px;
+    margin-top: 70px;
+  }
+  .titulosecundario {
+    font-size: 35px;
+  }
+  .parrafonumero1, .parrafonumero2 {
+    font-size: 16px;
+  }
+  .rosetta {
+    margin-left: 3cm;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

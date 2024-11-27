@@ -1,0 +1,48 @@
+@media (min-width: 1025px) { /* Desktop */
+  .grid1 {
+    font-size: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .tituloprincipal {
+    font-size: 35px;
+  }
+
+  .flatwhite {
+    margin-left: 15cm;
+  }
+
+  .wpp {
+    right: 35px;
+    bottom: 100px;
+    width: 60px;
+  }
+
+  .inscripcion {
+    margin-left: 30px;
+    padding: 20px;
+    width: calc(100% - 60px);
+  }
+
+  .tutordecafe, .cafelatteart {
+    width: 350px;
+    margin-left: 10px;
+  }
+
+  .tituloh2 {
+    font-size: 50px;
+    margin-top: 70px;
+  }
+
+  .titulosecundario {
+    font-size: 35px;
+  }
+
+  .parrafonumero1, .parrafonumero2 {
+    font-size: 16px;
+  }
+
+  .rosetta {
+    margin-left: 3cm;
+  }
+}

@@ -1,0 +1,47 @@
+.wpp{
+    width: 100px;
+   transform: translateY(100px);
+   animation-name: rotarelemento;
+   animation-iteration-count:infinite;
+   animation-timing-function: linear;
+animation-duration:2s;
+  }
+  /*Este es el logo de whatsapp*/
+.wpp {
+  position: fixed;
+  right: 35px;
+  bottom: 10px;
+  width: 60px;
+}
+/*Esta es la animacion de mi logo*/
+
+@keyframes rotarelemento {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+/*Esto es un medio de inscripcion*/
+.inscripciones {
+  text-align: center;
+  background-color: #eeebe8;
+   text-decoration: none;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   font-size: 18px;
+   border-radius: 2px;
+   padding: 15px;
+   margin-left: 100px;
+   margin-bottom: 40px;
+ }
+ 

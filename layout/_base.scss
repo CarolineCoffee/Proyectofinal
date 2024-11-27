@@ -1,0 +1,30 @@
+/*Esto es una imagen*/
+.tutordecafe{
+    width: 400px;
+    margin-left: 600px;
+}
+.tituloh2 {
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+             }
+          /*Este es el logo de whatsapp*/
+.wpp {
+    position: fixed;
+    right: 35px;
+    bottom: 10px;
+    width: 60px;
+  }
+  /*Este es mi footer*/
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px; 
+    background-color: #b0a498; 
+    position: fixed;
+    bottom: 0;
+    left: 2px;
+    text-align: center;
+  }

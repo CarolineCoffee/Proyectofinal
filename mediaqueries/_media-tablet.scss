@@ -1,0 +1,61 @@
+@media (min-width: 768px) and (max-width: 1024px) { /* Tabletas */
+  body.fondo {
+    background-size: cover;
+  }
+
+  .textcenter {
+    font-size: 25px;
+  }
+
+  .carousel-inner img {
+    max-height: 400px;
+  }
+
+  .grid1 {
+    font-size: 22px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .tituloprincipal {
+    font-size: 30px;
+  }
+
+  .flatwhite {
+    margin-left: 10cm;
+  }
+
+  .wpp {
+    right: 30px;
+    bottom: 20px;
+    width: 55px;
+  }
+
+  .inscripcion {
+    margin-left: 20px;
+    padding: 18px;
+    width: calc(100% - 40px);
+  }
+
+  .tutordecafe, .cafelatteart {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .tituloh2 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  .titulosecundario {
+    font-size: 30px;
+  }
+
+  .parrafonumero1, .parrafonumero2 {
+    font-size: 15px;
+  }
+
+  .rosetta {
+    margin-left: 2cm;
+  }
+}

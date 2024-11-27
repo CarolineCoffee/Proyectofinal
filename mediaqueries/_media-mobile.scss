@@ -1,0 +1,62 @@
+@media (max-width: 767px) { /* Móviles */
+  body.fondo {
+    background-size: cover;
+  }
+
+  .textcenter {
+    font-size: 20px;
+  }
+
+  .carousel-inner img {
+    max-height: 300px;
+  }
+
+  .grid1 {
+    font-size: 16px;
+    grid-template-columns: 1fr;
+  }
+
+  .tituloprincipal {
+    font-size: 25px;
+  }
+
+  .flatwhite {
+    margin-left: 0;
+  }
+
+  .wpp {
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+  }
+
+  .inscripcion {
+    margin-left: 10px;
+    padding: 15px;
+    width: calc(100% - 20px);
+  }
+
+  .tutordecafe, .cafelatteart {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .tituloh2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .titulosecundario {
+    font-size: 25px;
+  }
+
+  .parrafonumero1, .parrafonumero2 {
+    font-size: 14px;
+  }
+
+  .rosetta {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}

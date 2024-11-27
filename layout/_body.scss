@@ -1,0 +1,72 @@
+body.fondo {
+  background-image: url("../imagenes/fondodecafe.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: opacity(0.9);
+}
+/*Este es mi titulo principal en el index*/
+.textcenter {
+  font-size: 30px;
+  text-align: center;
+}
+/*Este es un carrusel de imagenes*/
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: contain;
+  width: auto;
+  margin: 0 auto;
+}
+section {
+  p {
+    .anuncio {
+      margin-top: 30px;
+      text-align: center;
+    }
+  }
+}
+/*Este es el titulo de la pag de cursos*/
+.cursosdebarista {
+  text-align: center;
+}
+/*Esto es un contendeor grid*/
+.grid1 {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding: 1em;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin: 20px;
+  
+  }
+  /*Esto es de un titulo*/
+.tituloprincipal{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+}
+/*Parrafo del titulo principal*/
+.p-descripcion{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+/*imagen de ese parrafo*/
+.flatwhite{
+  margin-left: 15cm;
+}
+body.fondo  {
+  background-image: url('ruta/de/tu/imagen.jpg');
+  background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Hace que la imagen se quede fija al hacer scroll */
+}
+.rodrigo {
+  margin-left: 4cm;
+  margin-top: 20px;
+  
+  }
